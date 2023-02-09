@@ -1,0 +1,505 @@
+@font-face {
+    font-family: 'FiraGO-Book';
+    src: url(../fonts/FiraGO-Book.ttf);
+}
+
+@font-face {
+    font-family: 'AndadaPro-Regular';
+    src: url(../fonts/AndadaPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'malayalam-sangam-mn';
+    src: url(../fonts/malayalam-sangam-mn.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+header {
+    border-bottom: 1px solid #000000;
+    text-align: center;
+
+}
+
+.container {
+max-width: 1188px;
+width: 82%;
+margin: 0 auto;
+}
+
+.tab {
+    display: inline;
+}
+
+.container.heading ul {
+    margin: 30px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.tab.home,.tab.about,.tab.blog,.tab.contact {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.tab.logo {
+    padding: 0 245px 0 0;
+    font-family: 'malayalam-sangam-mn', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 37px;
+}
+
+.tab.profile-icon {
+    padding: 0 0 0 355px;
+}
+
+.tab.home {
+    margin-right: 52px;
+}
+
+.tab.blog {
+    margin: 0 52px;
+}
+
+.home-h1 {
+    padding: 72px 392px 65px;
+    color: #000000;
+    font-family: 'FiraGO-Book', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.product-content {
+    display: inline-block;
+}
+
+.product-card {
+    display: inline-block;
+    border: 1px solid black;
+    background-color: inherit;
+    width: 333px;
+    height: 487px;
+    padding: 10px 10px 0 10px;
+}
+
+.product-card img {
+    width: 100%;
+    
+}
+
+.product-card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 26px 42px 18px 26px;
+}
+
+.product-card p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    margin: 0 24px 21px 26px;
+}
+
+.product-card.middle {
+    margin: 0 56px;
+}
+
+.buttons {
+    text-align: right;
+    margin-top: 23px;
+    margin-bottom: 62px;
+}
+
+.buttons.middle {
+    margin-right: 56px;
+}
+
+.more-info.middle {
+    margin-left: 56px;
+}
+
+.buttons button {
+    padding: 6px 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.more-info ul {
+    list-style-type: circle;
+    text-align: left;
+    margin: 0 0 39px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 215%;
+    color: #000000;
+}
+
+.more-products-button {
+    text-align: right;
+    margin-bottom: 61px
+}
+
+.more-products-button button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    text-decoration-line: underline;
+    font-family: 'FiraGO-Book', sans-serif;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 132%;
+    color: #000000;
+}
+
+.contact-h1 {
+    font-family: 'AndadaPro-Regular', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.03em;
+    color: #7D0000;
+    margin: 147px 484px 119px;
+}
+
+.contact-info {
+    display: inline-block;
+    font-family: 'AndadaPro-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: #0B253E;
+    margin-bottom: 144px;
+}
+
+.email, .street {
+    margin-bottom: 43px;
+}
+
+.email {
+    font-style: italic;
+    text-decoration-line: underline;
+}
+
+.contact-info.first {
+    margin-left: 150px;
+}
+
+.contact-info.second {
+    margin-left: 300px;
+    margin-right: 154px;
+}
+
+.map {
+    width: 908px;
+    height: 423px;
+    margin: 0 140px 193px;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 17px;
+}
+
+.about-h1 {
+    font-family: 'AndadaPro-Regular';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.03em;
+    color: #7D0000;
+    margin: 221px 398px 115px;
+}
+
+.about-page-content div {
+    display: inline-block;
+}
+
+.about-page-content {
+    height: 400px;
+    margin-bottom: 238px;
+}
+
+.text-info {
+    vertical-align: top;
+    margin: 0 59px 0 0;
+    width: 650px;
+    padding: 0 0 80px;
+}
+
+.text-info p {
+    color: #000000;
+    font-family: 'AndadaPro-Regular';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 165%;
+    letter-spacing: 0.03em;
+    margin-bottom: 89px;
+}
+
+.text-info address {
+    text-align: right;
+    color: #000000;
+    font-family: 'AndadaPro-Regular';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+}
+
+.image {
+    width: 470px;
+    padding: 70px 0 0 0;
+    vertical-align: top;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.blog-heading, .topnav {
+    display: inline-block;
+}
+
+.topnav {
+    width: 290px;
+    background-color: inherit;
+    padding: 17px 0 16px 15px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    margin: 42px 0 80px 433px;
+    vertical-align: top;
+  }
+
+.topnav input[type=text] {
+    width: 100%;
+    font-family: 'FiraGO';
+    font-weight: 350;
+    font-size: 11px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.blog-h1 {
+    font-family: 'FiraGO';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin: 47px 0 93px 0;
+}
+
+.filters {
+    padding: 0 26%;
+    margin-bottom: 68px;
+}
+
+.filters li {
+    display: inline-block;
+    font-family: 'FiraGO';
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.first-filter {
+    margin-right: 70px;
+}
+
+.third-filter {
+    margin: 0 70px;
+}
+
+.blog-image, .blog-text{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.blog-image {
+    width: 308px;
+    margin-right: 22px;
+}
+
+.blog-image img {
+    width: 100%;
+}
+
+.blog-text {
+    background-color: #E5EBE5;
+    padding: 34px;
+    margin-bottom: 14px;
+    width: 785px;
+    height: 160px;
+}
+
+.blog-text h3{
+    font-family: 'FiraGO';
+    font-weight: 500;
+    font-style: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.blog-text p{
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.button {
+    text-align: right;
+    margin-bottom: 63px;
+}
+
+.blog-post button {
+    background-color: inherit;
+    padding: 11px 28px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+    color: #000000;
+    cursor: pointer;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.container-profile {
+    max-width: 1028px;
+    width: 72%;
+    margin: 0 auto;
+}
+
+.profile-image {
+    border-radius: 300px;
+    margin-right: 68px;
+}
+
+.profile-image img {
+    width: 100%;
+}
+
+.profile-image, .customer-info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 169px;
+}
+
+.customer-info {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.customer-info p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #546CCC;
+    margin-top: 14px;
+}
+
+.personal-info div {
+    height: 52px;
+    width: 135px;
+    border-bottom: 2px solid #7D0000;
+    margin: 96px 0 74px 15px;
+}
+
+.personal-info h3 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-left: 30px;
+}
+
+.container-profile ul {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.first-column {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-right: 144px;
+    margin-left: 31px;
+}
+
+.middle-li {
+    margin: 30px 0;
+}
+
+.second-column {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.edit-info-button {
+    padding: 16px 32px;
+    background-color: #87AC87;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 146px;
+    margin-left: 750px;
+}
+.container-profile button {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+}
